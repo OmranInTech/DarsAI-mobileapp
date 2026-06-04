@@ -89,7 +89,7 @@ OpenAI GPT API
 
 ## 📦 Installation
 
-git clone https://github.com/yourusername/darse_ai.git
+[git clone https://github.com/yourusername/darse_ai.git](https://github.com/OmranInTech/DarsAI-mobileapp.git)
 cd darse_ai
 flutter pub get
 flutter run
