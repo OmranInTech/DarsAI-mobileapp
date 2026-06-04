@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+
 import 'core/constants/app_colors.dart';
+
 import 'features/tutor_chat/presentation/screens/tutor_chat_screen.dart';
+import 'features/text_synthesis/presentation/screens/summarizer_screen.dart';
+import 'features/smart_assessment/presentation/screens/quiz_view_screen.dart';
+import 'features/about/presentation/screens/about_screen.dart';
 
 void main() {
   runApp(const DarseAIApp());
@@ -39,9 +44,9 @@ class _RootShellState extends State<RootShell> {
 
   final List<Widget> pages = const [
     TutorChatScreen(),
-    Center(child: Text("Summary AI")),
-    Center(child: Text("Quiz AI")),
-    Center(child: Text("About Darse AI")),
+    SummarizerScreen(),
+    QuizViewScreen(),
+    AboutScreen(),
   ];
 
   @override
