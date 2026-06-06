@@ -4,7 +4,7 @@ Darse AI is a **modular AI-powered mobile learning assistant** built with Flutte
 
 ---
 
-## 🚀 Features
+## 🚀 Features 
 
 ### 💬 AI Chat Assistant
 - Conversational AI interface
